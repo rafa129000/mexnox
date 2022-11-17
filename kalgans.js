@@ -68,7 +68,7 @@ async function startHaikal() {
 const haikal = makeWASocket({
 logger: pino({ level: 'silent' }),
 printQRInTerminal: true,
-browser: ['Haikal Multi Device','Safari','1.0.0'],
+browser: ['Punzy Multi Device','Safari','1.0.0'],
 auth: state})
 //=================================================//
 store.bind(haikal.ev)
