@@ -308,7 +308,7 @@ user.afkReason = ''
 //=================================================//
 switch(command) {
 //=================================================//
-case 'inibug': case 'slemekbotzjhon': {
+case 'inibug': case 'punzyjhon': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -324,7 +324,7 @@ haikal.sendMessage(m.chat, { text: teks, mentions: participants.map(a => a.id) }
 }
 break
 //=================================================//
-case 'slemekbotzpoll': case 'slemekbotzjhon2': {
+case 'punzypoll': case 'punzyjhon2': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -359,7 +359,7 @@ deploy('sukses sendbug')}
 }
 break
 //=================================================//
-case 'jadikatalog': case 'slemekbotzkatalog': {
+case 'jadikatalog': case 'punzykatalog': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (!quoted) throw 'Reply Image/sticker'
@@ -372,7 +372,7 @@ function _0x348d(_0x50ce67,_0x2397a1){var _0x15bb19=_0x15bb();return _0x348d=fun
 }
 break
 //=================================================//
-case 'slemekbotztroli2': case 'slemekbotztrol': case 'jutrol': {
+case 'punzybotztroli2': case 'punzybotztrol': case 'jutrol': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return reply(`Jumlahnya?`)
@@ -397,7 +397,7 @@ haikal.relayMessage(m.chat, order.message, { messageId: order.key.id })
 }
 }
 break
-case 'slemekbotztroli3': case 'slemekbotztrol2': {
+case 'punzytroli3': case 'punzytrol2': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return reply(`Jumlahnya?`)
@@ -408,7 +408,7 @@ function _0x4279(){const _0x4c3178=['fromObject','Message','1847261837216262824'
 }
 break
 //=================================================//
-case 'slemekbotzsantet': {
+case 'punzysantet': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length < 1) return m.reply(`*Syntax Error!*\n\nUse : ${command} nomor target|amount spam|timer\nExample : ${command} 62888s.whatsapp.net|1|10s\n\n\ns = Second/Detik\n\n`)
@@ -431,7 +431,7 @@ m.reply(`Success Send Bug To: ${num}\nAmount Spam: ${jumlah}`)
 }
 break
 //=================================================//
-case 'slemekbotzsantetgc': {
+case 'punzysantetgc': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length < 1) return m.reply(`*Syntax Error!*\n\nUse : ${command} idGroup|amount spam|timer\nExample : ${command} 62888@g.us|1|10s\n\n\ns = Second/Detik\n\nDi Usahakan Bot Udah Masuk Group Nya`)
@@ -454,7 +454,7 @@ m.reply(`Success Send Bug To: ${num}\nAmount Spam: ${jumlah}`)
 }
 break
 //=================================================//
-case 'ducu': case 'slemekbotzducu': {
+case 'ducu': case 'punzyducu': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -467,7 +467,7 @@ haikal.sendMessage(m.chat, {document: yy, mimetype: 'application/octet-stream', 
 }
 break
 //=================================================//
-case 'slemekbotzdaca': case 'slemekbotzdaca':  {
+case 'punzydaca': case 'punzydaca':  {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -480,7 +480,7 @@ for (let i = 0; i < jumlah; i++) {
  }
  break
 //=================================================//
-case 'slemekbotzdocu': case 'slemekbotzdraknes':  {
+case 'punzydocu': case 'punzydraknes':  {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -506,7 +506,7 @@ haikal.relayMessage(m.chat, document.message, { messageId: document.key.id })
 }
 break
 //=================================================//
-case 'duc': case 'slemekbotzslebew': case 'cumadocu': {
+case 'duc': case 'punzyslebew': case 'cumadocu': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -532,7 +532,7 @@ haikal.relayMessage(m.chat, document.message, { messageId: document.key.id })
 }
 break
 //=================================================//
-case 'slemekbotzvirtext1': case 'slemekbotzsu': case 'crashar1': {
+case 'punzyvirtext1': case 'punzysu': case 'crashar1': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
@@ -542,7 +542,7 @@ haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c8
 }
 }
 break
-case 'slemekbotzvirtext2': case 'slemekbotztol': case 'crashar2': {
+case 'punzyvirtext2': case 'punzytol': case 'crashar2': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
@@ -552,7 +552,7 @@ haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c8
 }
 }
 break
-case 'slemekbotzvirtext3': case 'slemekbotzmemek': case 'crashar3': {
+case 'punzyvirtext3': case 'punzymemek': case 'crashar3': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
@@ -562,7 +562,7 @@ haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c8
 }
 }
 break
-case 'slemekbotzvirtext4': case 'slemekbotzcontol': case 'crashar4': {
+case 'punzyvirtext4': case 'punzycontol': case 'crashar4': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
@@ -572,7 +572,7 @@ haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c8
 }
 }
 break
-case 'slemekbotzvirtext5': case 'slemekbotztextv': case 'crashar5': {
+case 'punzyvirtext5': case 'punzytextv': case 'crashar5': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
@@ -582,7 +582,7 @@ haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c8
 }
 }
 break
-case 'slemekbotzvirtext6': case 'slemekbotzgas': case 'crashar6':{
+case 'punzyvirtext6': case 'punzygas': case 'crashar6':{
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
@@ -592,7 +592,7 @@ haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c8
 }
 }
 break
-case 'slemekbotzvirtext7': case 'slemekbotzjuvirtext': {
+case 'punzyvirtext7': case 'punzyjuvirtext': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
@@ -602,7 +602,7 @@ haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c8
 }
 }
 break
-case 'slemekbotzvirtext8': case 'slemekbotzjuvirtext1': case 'crashar7':{
+case 'punzyvirtext8': case 'punzyjuvirtext1': case 'crashar7':{
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
@@ -612,7 +612,7 @@ haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c8
 }
 }
 break
-case 'slemekbotzvirtext9': case 'slemekbotzjuvirtext2': case 'crashar8':{
+case 'punzyvirtext9': case 'punzyjuvirtext2': case 'crashar8':{
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
@@ -622,7 +622,7 @@ haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c8
 }
 }
 break
-case 'slemekbotzvirtext10': case 'slemekbotzjuvirtext3': case 'crashar9': {
+case 'punzyvirtext10': case 'punzyjuvirtext3': case 'crashar9': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Jumlahnya?`)
@@ -633,7 +633,7 @@ haikal.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/c2fda8b471c8
 }
 break
 //=================================================//
-case 'slemekbotzbug1': case 'slemekbotzcrash': case 'crashar10':{
+case 'punzybug1': case 'punzycrash': case 'crashar10':{
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -659,7 +659,7 @@ haikal.relayMessage(m.chat, audio.message, { messageId: audio.key.id })
 }
 break
 //=================================================//
-case 'slemekbotzbug2': case 'slemekbotzcrash1': case 'crashar11': {
+case 'punzybug2': case 'punzycrash1': case 'crashar11': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -688,7 +688,7 @@ haikal.relayMessage(m.chat, image.message, { messageId: image.key.id })
 }
 break
 //=================================================//
-case 'slemekbotzbug3': case 'slemekbotzcrash2': case 'crashar12': {
+case 'punzybotzbug3': case 'punzybotzcrash2': case 'crashar12': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -797,7 +797,7 @@ var _0x39080c=_0x4b8f;function _0x3b16(){var _0x4c72fa=['chat','9940068BVkoHm','
 }
 break
 //=================================================//
-case 'slemekbotzbug7': case 'slemekbotzcrash6': case 'crashar16':{
+case 'punzybotzbug7': case 'punzybotzcrash6': case 'crashar16':{
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -820,7 +820,7 @@ haikal.relayMessage(m.chat, extended.message, { messageId: extended.key.id })
 }
 break
 //=================================================//
-case 'slemekbotzbug8': case 'slemekbotzcrash7': case 'crashar17': {
+case 'punzybotzbug8': case 'punzybotzcrash7': case 'crashar17': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -838,7 +838,7 @@ haikal.relayMessage(m.chat, contact.message, { messageId: contact.key.id })
 }
 break
 //=================================================//
-case 'lokas': case 'slemekbotzlokas': {
+case 'lokas': case 'punzylokas': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -860,7 +860,7 @@ haikal.relayMessage(m.chat, liveLocation.message, { messageId: liveLocation.key.
 }
 break
 //=================================================//
-case 'buglokas': case 'slemekbotzlokas2': {
+case 'buglokas': case 'punzylokas2': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -904,7 +904,7 @@ haikal.relayMessage(m.chat, groupInvite.message, { messageId: groupInvite.key.id
 }
 break
 //=================================================//
-case 'slemekbotztroli': {
+case 'punzytroli': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -997,7 +997,7 @@ m.reply(tekteka)
 }
 break
 //=================================================//
-case 'slemekbotzjagoan' : {
+case 'punzyjagoan' : {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1016,7 +1016,7 @@ thumbnailUrl: 'https://telegra.ph/file/a5e229afeb4dad4f35204.jpg',
 break
 //=================================================//
 /*BUG WACAP */
-case 'slemekbotzskuy' : {
+case 'punzyskuy' : {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 Pe = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g,'')+"@s.whatsapp.net"
@@ -1041,7 +1041,7 @@ await sleep(20)
 break
 //=================================================//
 /*BUG WACAP */
-case 'gasslemekbotz' : {
+case 'gaspunzy' : {
 if (isBan) throw sticBanLu(from)
 if (!isCreator) return
 Pe = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g,'')+"@g.us"
@@ -1116,39 +1116,39 @@ function _0x5385(_0x2ab646,_0x156951){var _0x3a233e=_0x3a23();return _0x5385=fun
 }
 }
 break
-case '🌷': case 'crashmek': case 'ampunsuhu': case 'ahyangbetul': case 'okemek': case 'slemekbotznih': case 'crashar18': case 'mekdemam': case 'slemekbotz1': case 'slemekbotz2': case 'slemekbotz3': case 'slemekbotz4': case 'slemekbotz5': case 'slemekbotz6': case 'slemekbotz7': case 'slemekbotz8': case 'slemekbotz9': case 'slemekbotz10': case 'slemekbotz11': case 'slemekbotz12': case 'slemekbotz13': case 'slemekbotz14': case 'slemekbotz15': case 'slemekbotz16': case 'slemekbotz17': case 'slemekbotz18': case 'slemekbotz19': case 'slemekbotz20': case 'slemekbotz21': case 'slemekbotz22': case 'slemekbotz23': case 'slemekbotz24': case 'slemekbotz25': case 'slemekbotz26': case 'slemekbotz27': case 'slemekbotz28':
-case 'slemekbotz29':
-case 'slemekbotz30':
-case 'slemekbotz31':
-case 'slemekbotz32':
-case 'slemekbotz33':
-case 'slemekbotz34':
-case 'slemekbotz35':
-case 'slemekbotz36':
-case 'slemekbotz37':
-case 'slemekbotz38':
-case 'slemekbotz39':
-case 'slemekbotz40':
-case 'slemekbotz41':
-case 'slemekbotz42':
-case 'slemekbotz43':
-case 'slemekbotz44':
-case 'slemekbotz45':
-case 'slemekbotz46':
-case 'slemekbotz47':
-case 'slemekbotz48':
-case 'slemekbotz49':
-case 'slemekbotz50':
-case 'slemekbotz51':
-case 'slemekbotz52':
-case 'slemekbotz53':
-case 'slemekbotz54':
-case 'slemekbotz55':
-case 'slemekbotz56':
-case 'slemekbotz57':
-case 'slemekbotz58':
-case 'slemekbotz59':
-case 'slemekbotz60': {
+case '🌷': case 'crashmek': case 'ampunsuhu': case 'ahyangbetul': case 'okezy': case 'punzynih': case 'crashar18': case 'zydemam': case 'punzy1': case 'punzy2': case 'punzy3': case 'punzy4': case 'punzy5': case 'punzy6': case 'punzy7': case 'punzy8': case 'punzy9': case 'punzy10': case 'punzy11': case 'punzy12': case 'punzy13': case 'punzy14': case 'punzy15': case 'punzy16': case 'punzy17': case 'punzy18': case 'punzy19': case 'punzy20': case 'punzy21': case 'punzy22': case 'punzy23': case 'punzy24': case 'punzy25': case 'punzy26': case 'punzy27': case 'punzy28':
+case 'punzy29':
+case 'punzy30':
+case 'punzy31':
+case 'punzy32':
+case 'punzy33':
+case 'punzy34':
+case 'punzy35':
+case 'punzy36':
+case 'punzy37':
+case 'punzy38':
+case 'punzy39':
+case 'punzy40':
+case 'punzy41':
+case 'punzy42':
+case 'punzy43':
+case 'punzy44':
+case 'punzy45':
+case 'punzy46':
+case 'punzy47':
+case 'punzy48':
+case 'punzy49':
+case 'punzy50':
+case 'punzy51':
+case 'punzy52':
+case 'punzy53':
+case 'punzy54':
+case 'punzy55':
+case 'punzy56':
+case 'punzy57':
+case 'punzy58':
+case 'punzy59':
+case 'punzy60': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1170,7 +1170,7 @@ m.reply(`${m.pushName} Hello Saya Bot Hw Mods${text ? ': ' + text : ''}`)
 }
 break
 //=================================================//
-case 'slemekbotzstik': case 'slemekbotzkangbug': case 'buttonkatian': case 'crashar19': {
+case 'punzystik': case 'punzykangbug': case 'buttonkatian': case 'crashar19': {
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
@@ -1213,7 +1213,7 @@ m.reply(mess.wait)
 haikal.sendMessage(m.chat, { video: krt, mimetype: 'video/mp4', fileName: `${command}.mp4`, caption: `${bugsw}` }, { quoted:m })
 break
 //=================================================//
-case 'slemekbotzbugie': case 'slemekbotzkangbug1': case 'crashar20': {
+case 'punzybugie': case 'punzykangbug1': case 'crashar20': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1300,7 +1300,7 @@ m.reply('*Success Broadcast*')
 }
 break
 //=================================================//
-case 'slemekbotzbutton': case 'slemekbotzkangbuttton': case 'testbutton': case 'inibutton': 
+case 'punzybutton': case 'punzykangbuttton': case 'testbutton': case 'inibutton': 
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1322,7 +1322,7 @@ haikal.sendMessage(m.chat, buttonMessage)
 }
  break
 //=================================================//
-case 'slemekbotztag': case 'slemekbotzbar':  {
+case 'punzytag': case 'punzybar':  {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (!m.isGroup) throw groupon(from)
@@ -1330,7 +1330,7 @@ haikal.sendMessage(m.chat, { text : `${buttonkal}` , mentions: participants.map(
 }
 break
 //=================================================//
-case 'hiya': case 'slemekbotzoke': {
+case 'hiya': case 'punzyoke': {
 if (isBan) throw sticBanLu(from)
 if (!isCreator) return
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1343,7 +1343,7 @@ haikal.sendMessage(m.chat, { document: anuin, mimetype: 'application/octet-strea
 }
 break
 //=================================================//
-case 'slemekbotztod': case 'slemekbotzewe': {
+case 'punzytod': case 'punzyewe': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1367,7 +1367,7 @@ haikal.sendMessage(m.chat, { image: anu, caption: `${buttonkal}` }, { quoted: m}
 }
 break
 //=================================================//
-case 'slemekbotzbokep': case 'slemekbotzngentod': {
+case 'punzybokep': case 'punzyngentod': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1380,7 +1380,7 @@ haikal.sendMessage(m.chat, { video: dwhe, mimetype: 'video/mp4', fileName: `${co
 }
 break
 //=================================================//
-case 'slemekbotzsange': {
+case 'punzysange': {
 if (isBan) throw sticBanLu(from)
 if (!m.isGroup) return m.reply(mess.group)
 if (!isBotAdmins) return m.reply(mess.botAdmin)
@@ -1515,7 +1515,7 @@ haikal.sendMessage(m.chat, {video: {url: anu},viewOnce : true},{quoted: doc })
 }
 break
 //=================================================//
-case 'slemekbotzhu': case 'slemekbotz1': {
+case 'punzyhu': case 'punzy1': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1528,7 +1528,7 @@ for (let i = 0; i < jumlah; i++) {
  }
  break
 //=================================================//
-case 'slemekbotzhi': case 'slemekbotz2': {
+case 'punzyhi': case 'punzy2': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1541,7 +1541,7 @@ for (let i = 0; i < jumlah; i++) {
  }
  break
 //=================================================//
-case 'slemekbotzha': case 'slemekbotz3': {
+case 'punzyha': case 'punzy3': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1554,7 +1554,7 @@ for (let i = 0; i < jumlah; i++) {
  }
  break
 //=================================================//
-case 'slemekbotzhe': case 'slemekbotz4': {
+case 'punzyhe': case 'punzy4': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1567,7 +1567,7 @@ for (let i = 0; i < jumlah; i++) {
  }
  break
 //=================================================//
-case 'slemekbotzba': case 'slemekbotz5': {
+case 'punzyba': case 'punzy5': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1580,7 +1580,7 @@ for (let i = 0; i < jumlah; i++) {
  }
  break
 //=================================================//
-case 'slemekbotzbe': case 'slemekbotz6': {
+case 'punzybe': case 'punzy6': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1593,7 +1593,7 @@ for (let i = 0; i < jumlah; i++) {
  }
  break
 //=================================================//
-case 'slemekbotzbu': case 'slemekbotz7': {
+case 'punzybu': case 'punzy7': {
 if (isBan) throw sticBanLu(from)
 if (!isCreator) return
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1606,7 +1606,7 @@ for (let i = 0; i < jumlah; i++) {
  }
  break
 //=================================================//
-case 'slemekbotzbi': case 'slemekbotz8': {
+case 'punzybi': case 'punzy8': {
 if (isBan) throw sticBanLu(from)
 if (!isCreator) return
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1619,7 +1619,7 @@ for (let i = 0; i < jumlah; i++) {
  }
  break
 //=================================================//
-case 'slemekbotzca': case 'slemekbotz9': {
+case 'punzyca': case 'punzy9': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1632,7 +1632,7 @@ for (let i = 0; i < jumlah; i++) {
  }
  break
 //=================================================//
-case 'slemekbotzci': case 'slemekbotz10': {
+case 'punzyci': case 'punzy10': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1645,7 +1645,7 @@ for (let i = 0; i < jumlah; i++) {
  }
  break
 //=================================================//
-case 'slemekbotzcu': case 'slemekbotz11': {
+case 'punzycu': case 'punzy11': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1658,7 +1658,7 @@ for (let i = 0; i < jumlah; i++) {
  }
  break
 //=================================================//
-case 'slemekbotzco': case 'slemekbotz12': {
+case 'punzyco': case 'punzy12': {
 if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
@@ -1709,7 +1709,7 @@ reply(res)
 });
 break
 //=================================================//
-case 'kal': {
+case 'punzy': {
 if (isBan) throw sticBanLu(from)
  hey = fs.readFileSync('./baseikal/sound/tes.mp3')
  haikal.sendMessage(m.chat, {audio: hey, mimetype: 'audio/mpeg', ptt:true }, {quoted:m})
@@ -1757,7 +1757,7 @@ if (isBan) throw sticBanLu(from)
  haikal.sendMessage(m.chat, {audio: mu, mimetype: 'audio/mpeg', ptt:true }, {quoted:m})
  }
  break
-case 'slebew': {
+case 'slemek': {
 if (isBan) throw sticBanLu(from)
  me = fs.readFileSync('./baseikal/sound/ikehcok.mp3')
  haikal.sendMessage(m.chat, {audio: me, mimetype: 'audio/mpeg', ptt:true }, {quoted:m})
@@ -2268,7 +2268,7 @@ break
 //=================================================//
 case 'sc': {
 if (isBan) throw sticBanLu(from)
-reply('Telegram : https://t.me/haikal857\n\n Sc Bot : https://youtube.com/c/HwModsWa857')
+reply('SC SLEMEKKK NIH BOS')
 }
 break
 //=================================================//
@@ -4242,7 +4242,7 @@ jpegThumbnail:log0,
 caption: `
 ◎ Lib : Multi-Device
 ◎ Terbit : *01-09-1999*
-◎ Owner : ☆slemekbotz⏧☆⏧
+◎ Owner : ☆𝐩𝐮𝐧𝐳𝐲⏧☆⏧
 
 [ 🇲🇨 Ini adalah Bot Pribadi Tekan Link Di Bawah Untuk Bergabung ]`,
 footer: haikal.user.name,
@@ -4256,14 +4256,14 @@ break*/
 case 'menu': {
 if (isBan) throw sticBanLu(from)
 haikal.sendMessage(m.chat, { image: kalimage, caption: `
-◎ ☆slemekbotz⏧☆◎
+◎ ☆𝐩𝐮𝐧𝐳𝐲⏧☆◎
 ◎ 𝐋𝐢𝐛 : 𝐌𝐮𝐥𝐭𝐢-𝐃𝐞𝐯𝐢𝐜𝐞
 ╔════[ AUTO ]══════⊱
 ╠➤ 𝐀𝐮𝐭𝐨𝐤𝐞𝐭𝐢𝐤 𝐨𝐧 / 𝐨𝐟𝐟
 ╠➤ 𝐀𝐮𝐭𝐨𝐯𝐧 𝐎𝐧 / 𝐎𝐟𝐟
 ╠➤ 𝐀𝐮𝐭𝐨𝐚𝐯𝐚𝐢𝐥𝐚𝐛𝐥𝐞 𝐨𝐧 / 𝐨𝐟𝐟
 ╠➤ 𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐨𝐧 / 𝐨𝐟𝐟 [ Crash ]
-╚════[ ☆slemekbotz⏧☆⏧ ]══════⊱
+╚════[ ☆𝐩𝐮𝐧𝐳𝐲⏧☆⏧ ]══════⊱
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
 ╔══[ MENU ]══════⊱
 ╠➤ 𝐁𝐮𝐠𝐦𝐞𝐧𝐮
@@ -4283,11 +4283,11 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `
 ╠➤ 𝐆𝐫𝐨𝐮𝐩𝐦𝐞𝐧𝐮
 ╠➤ 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐦𝐞𝐧𝐮
 ╠➤ 𝐎𝐰𝐧𝐞𝐫𝐦𝐞𝐧𝐮
-╚════[ ☆slemekbotz⏧☆⏧ ]══════⊱
+╚════[ ☆𝐩𝐮𝐧𝐳𝐲⏧☆⏧ ]══════⊱
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
 Base Script
-©☆slemekbotz⏧☆⏧
-☆slemekbotz⏧☆`, contextInfo:{"externalAdReply": {"title": `SC ☆slemekbotz⏧☆⏧`,"body": `Selamat ${salam} kak ${pushname}`,
+©☆𝐩𝐮𝐧𝐳𝐲⏧☆⏧
+☆𝐩𝐮𝐧𝐳𝐲⏧☆`, contextInfo:{"externalAdReply": {"title": `SC ☆𝐩𝐮𝐧𝐳𝐲⏧☆⏧`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
 sourceUrl: `https://youtube.com/c/HwModsWa857`,
@@ -4308,70 +4308,70 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `© Hay Kak ${pushname} �
 ^𝐁𝐔𝐆 𝐁𝐎𝐓 𝐕𝐈𝐏^
 ^𝐁𝐘 : ${botname}^
 ╔════[ 𝐕𝐈𝐏 ]═══════⊱
-╠➤𝐦𝐞𝐱𝐝𝐞𝐦𝐚𝐦 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐛𝐨𝐭𝐳𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐛𝐨𝐭𝐳𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐛𝐨𝐭𝐳𝟑 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐛𝐨𝐭𝐳𝟒 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐛𝐨𝐭𝐳𝟓 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐛𝐨𝐭𝐳𝟔 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐛𝐨𝐭𝐳𝟕 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐛𝐨𝐭𝐳𝟖 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐛𝐨𝐭𝐳𝟗 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐛𝐨𝐭𝐳𝟏𝟎 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐛𝐨𝐭𝐳𝟏𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐛𝐨𝐭𝐳𝟏𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐛𝐨𝐭𝐳𝟏𝟑 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐛𝐨𝐭𝐳𝟏𝟒 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐛𝐨𝐭𝐳𝟏𝟓 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐛𝐨𝐭𝐳𝟏𝟔 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐛𝐨𝐭𝐳𝟏𝟕 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐛𝐨𝐭𝐳𝟏𝟖 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐛𝐨𝐭𝐳𝟏𝟗 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐛𝐨𝐭𝐳𝟐𝟎 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐛𝐨𝐭𝐳𝟐𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐛𝐨𝐭𝐳𝟐𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐛𝐨𝐭𝐳𝟐𝟑 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐛𝐨𝐭𝐳𝟐𝟒 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐛𝐨𝐭𝐳𝟐𝟓 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐛𝐨𝐭𝐳𝟐𝟔 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐛𝐨𝐭𝐳𝟐𝟕 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐛𝐨𝐭𝐳𝟐𝟖 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐛𝐨𝐭𝐳𝟐𝟗 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐛𝐨𝐭𝐳𝟑𝟎 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐛𝐨𝐭𝐳𝟑𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐛𝐨𝐭𝐳𝟑𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐛𝐨𝐭𝐳𝟑𝟑 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐛𝐨𝐭𝐳𝟑𝟒 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐛𝐨𝐭𝐳𝟑𝟓 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐛𝐨𝐭𝐳𝟑𝟔 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐛𝐨𝐭𝐳𝟑𝟕 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐛𝐨𝐭𝐳𝟑𝟖 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐛𝐨𝐭𝐳𝟑𝟗 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐛𝐨𝐭𝐳𝟒𝟎 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐛𝐨𝐭𝐳𝟒𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐛𝐨𝐭𝐳𝟒𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐛𝐨𝐭𝐳𝟒𝟑 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐛𝐨𝐭𝐳𝟒𝟒 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐛𝐨𝐭𝐳𝟒𝟓 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐛𝐨𝐭𝐳𝟒𝟔 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐛𝐨𝐭𝐳𝟒𝟕 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐛𝐨𝐭𝐳𝟒𝟖 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐛𝐨𝐭𝐳𝟒𝟗 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐛𝐨𝐭𝐳𝟓𝟎 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐛𝐨𝐭𝐳𝟓𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐛𝐨𝐭𝐳𝟓𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐛𝐨𝐭𝐳𝟓𝟑 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐛𝐨𝐭𝐳𝟓𝟒 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐛𝐨𝐭𝐳𝟓𝟓 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐛𝐨𝐭𝐳𝟓𝟔 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐛𝐨𝐭𝐳𝟓𝟕 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐛𝐨𝐭𝐳𝟓𝟖 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐛𝐨𝐭𝐳𝟓𝟗 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐛𝐨𝐭𝐳𝟔𝟎 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐲𝐝𝐞𝐦𝐚𝐦 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐛𝐨𝐭𝐳𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐛𝐨𝐭𝐳𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐛𝐨𝐭𝐳𝟑 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐛𝐨𝐭𝐳𝟒 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐛𝐨𝐭𝐳𝟓 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐛𝐨𝐭𝐳𝟔 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐛𝐨𝐭𝐳𝟕 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐛𝐨𝐭𝐳𝟖 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐛𝐨𝐭𝐳𝟗 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐛𝐨𝐭𝐳𝟏𝟎 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐛𝐨𝐭𝐳𝟏𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐛𝐨𝐭𝐳𝟏𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐛𝐨𝐭𝐳𝟏𝟑 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐛𝐨𝐭𝐳𝟏𝟒 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐛𝐨𝐭𝐳𝟏𝟓 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐛𝐨𝐭𝐳𝟏𝟔 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐛𝐨𝐭𝐳𝟏𝟕 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐛𝐨𝐭𝐳𝟏𝟖 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐛𝐨𝐭𝐳𝟏𝟗 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐛𝐨𝐭𝐳𝟐𝟎 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐛𝐨𝐭𝐳𝟐𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐛𝐨𝐭𝐳𝟐𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐛𝐨𝐭𝐳𝟐𝟑 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐛𝐨𝐭𝐳𝟐𝟒 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐛𝐨𝐭𝐳𝟐𝟓 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐛𝐨𝐭𝐳𝟐𝟔 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐛𝐨𝐭𝐳𝟐𝟕 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐛𝐨𝐭𝐳𝟐𝟖 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐛𝐨𝐭𝐳𝟐𝟗 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐛𝐨𝐭𝐳𝟑𝟎 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐛𝐨𝐭𝐳𝟑𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐛𝐨𝐭𝐳𝟑𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐛𝐨𝐭𝐳𝟑𝟑 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐛𝐨𝐭𝐳𝟑𝟒 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐛𝐨𝐭𝐳𝟑𝟓 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐛𝐨𝐭𝐳𝟑𝟔 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐛𝐨𝐭𝐳𝟑𝟕 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐛𝐨𝐭𝐳𝟑𝟖 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐛𝐨𝐭𝐳𝟑𝟗 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐛𝐨𝐭𝐳𝟒𝟎 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐛𝐨𝐭𝐳𝟒𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐛𝐨𝐭𝐳𝟒𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐛𝐨𝐭𝐳𝟒𝟑 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐛𝐨𝐭𝐳𝟒𝟒 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐛𝐨𝐭𝐳𝟒𝟓 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐛𝐨𝐭𝐳𝟒𝟔 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐛𝐨𝐭𝐳𝟒𝟕 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐛𝐨𝐭𝐳𝟒𝟖 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐛𝐨𝐭𝐳𝟒𝟗 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐛𝐨𝐭𝐳𝟓𝟎 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐛𝐨𝐭𝐳𝟓𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐛𝐨𝐭𝐳𝟓𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐛𝐨𝐭𝐳𝟓𝟑 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐛𝐨𝐭𝐳𝟓𝟒 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐛𝐨𝐭𝐳𝟓𝟓 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐛𝐨𝐭𝐳𝟓𝟔 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐛𝐨𝐭𝐳𝟓𝟕 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐛𝐨𝐭𝐳𝟓𝟖 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐛𝐨𝐭𝐳𝟓𝟗 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐛𝐨𝐭𝐳𝟔𝟎 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤𝐛𝐮𝐭𝐭𝐨𝐧𝐤𝐞𝐦𝐚𝐭𝐢𝐚𝐧 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐦𝐞𝐱𝐜𝐫𝐨𝐭 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐧𝐢𝐡 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐳𝐲𝐜𝐫𝐨𝐭 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐧𝐢𝐡 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤𝐨𝐤𝐞𝐦𝐞𝐱 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤𝐚𝐡𝐲𝐚𝐧𝐠𝐛𝐞𝐭𝐮𝐥 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤𝐚𝐦𝐩𝐮𝐧𝐬𝐮𝐡𝐮 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
@@ -4382,45 +4382,45 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `© Hay Kak ${pushname} �
 ╠➤🌷 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤🔥 𝟔𝟐𝟖𝐱𝐱𝐱|𝟓|𝟓
 ╠➤ 𝐜𝐫𝐚𝐬𝐡𝐦𝐞𝐱 𝟔𝟐𝟖𝐱𝐱𝐱|𝟓|𝟓
-╚════[ ☆slemekbotz⏧☆⏧ ]══════
+╚════[ ☆𝐩𝐮𝐧𝐳𝐲⏧☆⏧ ]══════
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
 
 ╔════[ 𝐁𝐔𝐆 𝐒𝐏𝐄𝐂𝐈𝐀𝐋 ]══════⊱
 ╠➤𝐚𝐟𝐤 { 𝐤𝐚𝐬𝐢𝐡 𝐫𝐞𝐚𝐜𝐭𝐢𝐨𝐧𝐬 }
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐠𝐡𝐨𝐢𝐛 [ 𝐨𝐧 / 𝐨𝐟𝐟 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐣𝐚𝐠𝐨𝐚𝐧 [ 𝐫𝐞𝐩𝐥𝐲 𝐭𝐚𝐫𝐠𝐞𝐭 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐬𝐚𝐧𝐠𝐞 [ 𝐇𝐚𝐫𝐮𝐬 𝐌𝐞𝐧𝐣𝐚𝐝𝐢 𝐀𝐝𝐦𝐢𝐧 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐠𝐡𝐨𝐢𝐛 [ 𝐨𝐧 / 𝐨𝐟𝐟 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐣𝐚𝐠𝐨𝐚𝐧 [ 𝐫𝐞𝐩𝐥𝐲 𝐭𝐚𝐫𝐠𝐞𝐭 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐬𝐚𝐧𝐠𝐞 [ 𝐇𝐚𝐫𝐮𝐬 𝐌𝐞𝐧𝐣𝐚𝐝𝐢 𝐀𝐝𝐦𝐢𝐧 ]
 ╠➤𝐛𝐮𝐠𝐭𝐢𝐤𝐭𝐨𝐤 [ 𝐋𝐢𝐧𝐤 ] - 𝐁𝐮𝐠 𝐒𝐰
 ╠➤𝐣𝐚𝐝𝐢𝐤𝐚𝐭𝐚𝐥𝐨𝐠 [ 𝐫𝐞𝐩𝐥𝐲 𝐬𝐭𝐢𝐜𝐤𝐞𝐫 ] 𝐣𝐮𝐦𝐥𝐚𝐡
-╚════[ ☆slemekbotz⏧☆⏧ ]══════⊱
+╚════[ ☆𝐩𝐮𝐧𝐳𝐲⏧☆⏧ ]══════⊱
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
 
 ╔══════[ 𝐁𝐔𝐆 𝐓𝐀𝐑𝐆𝐄𝐓 ]══════⊱
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐬𝐤𝐮𝐲 𝟔𝟐𝟖𝐱𝐱𝐱
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐬𝐚𝐧𝐭𝐞𝐭 𝟔𝟐𝟖𝐱𝐱𝐱@𝐬.𝐰𝐡𝐚𝐭𝐬𝐚𝐩𝐩.𝐧𝐞𝐭|𝟏𝟎|𝟏𝟎𝐬
+╠➤𝐩𝐮𝐧𝐳𝐲𝐬𝐤𝐮𝐲 𝟔𝟐𝟖𝐱𝐱𝐱
+╠➤𝐩𝐮𝐧𝐳𝐲𝐬𝐚𝐧𝐭𝐞𝐭 𝟔𝟐𝟖𝐱𝐱𝐱@𝐬.𝐰𝐡𝐚𝐭𝐬𝐚𝐩𝐩.𝐧𝐞𝐭|𝟏𝟎|𝟏𝟎𝐬
 ╠➤𝐜𝐚𝐭𝐚𝐥𝐨𝐠𝐩𝐜 𝟔𝟐𝟖𝐱𝐱𝐱@𝐬.𝐰𝐡𝐚𝐭𝐬𝐚𝐩𝐩.𝐧𝐞𝐭|𝟏𝟎|𝟏𝟎𝐬
-╚════[ ☆slemekbotz⏧☆⏧ ]══════⊱
+╚════[ ☆𝐩𝐮𝐧𝐳𝐲⏧☆⏧ ]══════⊱
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
 
 𝐊𝐞𝐭𝐢𝐤 > 𝐦.𝐜𝐡𝐚𝐭 ( 𝐝𝐢 𝐠𝐫𝐨𝐮𝐩 𝐝𝐮𝐥𝐮🌷)
 ╔══════[ 𝐁𝐔𝐆 𝐆𝐑𝐎𝐔𝐏 ]══════⊱
-╠➤𝐠𝐚𝐬𝐬𝐥𝐞𝐦𝐞𝐤 𝟏𝟏𝟐𝟔𝟕𝟒𝟒𝟒𝟖𝐱𝐱𝐱
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐬𝐚𝐧𝐭𝐞𝐭𝐠𝐜  𝟏𝟐𝟑𝟕𝟖𝟗𝟏𝐱𝐱𝐱𝐱@𝐠.𝐮𝐬|𝟏𝟎|𝟏𝟎𝐬
+╠➤𝐠𝐚𝐬𝐩𝐮𝐧𝐳𝐲 𝟏𝟏𝟐𝟔𝟕𝟒𝟒𝟒𝟖𝐱𝐱𝐱
+╠➤𝐩𝐮𝐧𝐳𝐲𝐬𝐚𝐧𝐭𝐞𝐭𝐠𝐜  𝟏𝟐𝟑𝟕𝟖𝟗𝟏𝐱𝐱𝐱𝐱@𝐠.𝐮𝐬|𝟏𝟎|𝟏𝟎𝐬
 ╠➤𝐜𝐚𝐭𝐚𝐥𝐨𝐠𝐠𝐜 𝟏𝟐𝟑𝟕𝟖𝟗𝟏𝐱𝐱𝐱𝐱@𝐠.𝐮𝐬|𝟏𝟎|𝟏𝟎𝐬
-╚════[ ☆slemekbotz⏧☆⏧ ]══════⊱
+╚════[ ☆𝐩𝐮𝐧𝐳𝐲⏧☆⏧ ]══════⊱
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
 
 ╔══════[ 𝐕𝐈𝐑𝐓𝐄𝐗𝐓 ]══════⊱
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐯𝐢𝐫𝐭𝐞𝐱𝐭𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐯𝐢𝐫𝐭𝐞𝐱𝐭𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐯𝐢𝐫𝐭𝐞𝐱𝐭𝟑 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐯𝐢𝐫𝐭𝐞𝐱𝐭𝟒 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐯𝐢𝐫𝐭𝐞𝐱𝐭𝟓 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐯𝐢𝐫𝐭𝐞𝐱𝐭𝟔 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐯𝐢𝐫𝐭𝐞𝐱𝐭𝟕 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐯𝐢𝐫𝐭𝐞𝐱𝐭𝟖 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐯𝐢𝐫𝐭𝐞𝐱𝐭𝟗 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐯𝐢𝐫𝐭𝐞𝐱𝐭𝟏𝟎 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐯𝐢𝐫𝐭𝐞𝐱𝐭𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐯𝐢𝐫𝐭𝐞𝐱𝐭𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐯𝐢𝐫𝐭𝐞𝐱𝐭𝟑 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐯𝐢𝐫𝐭𝐞𝐱𝐭𝟒 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐯𝐢𝐫𝐭𝐞𝐱𝐭𝟓 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐯𝐢𝐫𝐭𝐞𝐱𝐭𝟔 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐯𝐢𝐫𝐭𝐞𝐱𝐭𝟕 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐯𝐢𝐫𝐭𝐞𝐱𝐭𝟖 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐯𝐢𝐫𝐭𝐞𝐱𝐭𝟗 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐯𝐢𝐫𝐭𝐞𝐱𝐭𝟏𝟎 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤𝐜𝐫𝐚𝐬𝐡𝐚𝐫𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤𝐜𝐫𝐚𝐬𝐡𝐚𝐫𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤𝐜𝐫𝐚𝐬𝐡𝐚𝐫𝟑 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
@@ -4441,7 +4441,7 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `© Hay Kak ${pushname} �
 ╠➤𝐜𝐫𝐚𝐬𝐡𝐚𝐫𝟏𝟖 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤𝐜𝐫𝐚𝐬𝐡𝐚𝐫𝟏𝟗 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤𝐜𝐫𝐚𝐬𝐡𝐚𝐫𝟐𝟎 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╚════[ ☆slemekbotz⏧☆⏧ ]══════⊱
+╚════[ ☆𝐩𝐮𝐧𝐳𝐲⏧☆⏧ ]══════⊱
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
 
 ╔══════[ 𝐁𝐔𝐆 𝐒𝐏𝐀𝐌 ]══════⊱
@@ -4461,95 +4461,95 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `© Hay Kak ${pushname} �
 ╠➤𝐲𝐞𝐞𝐭 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤𝐛𝐢𝐭𝐞 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤𝐥𝐢𝐜𝐤 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐤𝐚𝐧𝐠𝐛𝐮𝐭𝐭𝐭𝐨𝐧 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐝𝐞𝐥𝐚𝐲 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐬𝐭𝐢𝐤 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐛𝐮𝐠𝐢𝐞 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐤𝐚𝐧𝐠𝐛𝐮𝐭𝐭𝐭𝐨𝐧 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐝𝐞𝐥𝐚𝐲 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐬𝐭𝐢𝐤 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐛𝐮𝐠𝐢𝐞 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤𝐛𝐮𝐠𝐥𝐨𝐤𝐚𝐬 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐭𝐨𝐝 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐛𝐨𝐤𝐞𝐩 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐭𝐨𝐝 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐛𝐨𝐤𝐞𝐩 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤𝐛𝐮𝐠𝐢𝐧𝐯𝐢𝐭𝐞 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ] 𝐏𝐜
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐡𝐚 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐡𝐢 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐬𝐥𝐞𝐦𝐞𝐤𝐡𝐮 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐡𝐞 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐛𝐚 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐛𝐞 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐛𝐮 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐛𝐢 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐜𝐚 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐜𝐢 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐜𝐮 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐜𝐨 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐛𝐮𝐠𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐛𝐮𝐠𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐛𝐮𝐠𝟑 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐛𝐮𝐠𝟒 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐛𝐮𝐠𝟓 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐛𝐮𝐠𝟔 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐛𝐮𝐠𝟕 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐩𝐨𝐥𝐥 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐭𝐚𝐠 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐡𝐚 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐡𝐢 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐡𝐮 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐡𝐞 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐛𝐚 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐛𝐞 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐛𝐮 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐛𝐢 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐜𝐚 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐜𝐢 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐜𝐮 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐜𝐨 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐛𝐮𝐠𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐛𝐮𝐠𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐛𝐮𝐠𝟑 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐛𝐮𝐠𝟒 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐛𝐮𝐠𝟓 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐛𝐮𝐠𝟔 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐛𝐮𝐠𝟕 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐩𝐨𝐥𝐥 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐭𝐚𝐠 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤𝐢𝐧𝐢𝐛𝐮𝐠 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤𝐡𝐢𝐲𝐚 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤𝐥𝐨𝐤𝐚𝐬 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤𝐜𝐚𝐭𝐚𝐥𝐨𝐠 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐝𝐨𝐜𝐮 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐝𝐚𝐜𝐚 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐝𝐨𝐜𝐮 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐝𝐚𝐜𝐚 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤𝐝𝐮𝐜 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤𝐝𝐮𝐜𝐮 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐭𝐫𝐨𝐥𝐢 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐭𝐫𝐨𝐥𝐢𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐭𝐫𝐨𝐥𝐢𝟑 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐣𝐡𝐨𝐧𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐣𝐡𝐨𝐧 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐛𝐮𝐭𝐭𝐨𝐧 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐭𝐫𝐨𝐥 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐤𝐚𝐭𝐚𝐥𝐨𝐠 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐝𝐮𝐜𝐮 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐝𝐚𝐜𝐚 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐝𝐫𝐚𝐤𝐧𝐞𝐬
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐬𝐥𝐞𝐛𝐞𝐰 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐬𝐮 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐭𝐨𝐥 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐦𝐞𝐦𝐞𝐤 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐜𝐨𝐧𝐭𝐨𝐥 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐭𝐞𝐱𝐭𝐯 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐠𝐚𝐬 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐣𝐮𝐯𝐢𝐫𝐭𝐞𝐱𝐭 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐣𝐮𝐯𝐢𝐫𝐭𝐞𝐱𝐭𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐣𝐮𝐯𝐢𝐫𝐭𝐞𝐱𝐭𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐣𝐮𝐯𝐢𝐫𝐭𝐞𝐱𝐭𝟑 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐜𝐫𝐚𝐬𝐡 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐜𝐫𝐚𝐬𝐡𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐜𝐫𝐚𝐬𝐡𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐜𝐫𝐚𝐬𝐡𝟑 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐜𝐫𝐚𝐬𝐡𝟒 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐜𝐫𝐚𝐬𝐡𝟓 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐜𝐫𝐚𝐬𝐡𝟔 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐜𝐫𝐚𝐬𝐡𝟕 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐥𝐨𝐤𝐚𝐬 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐥𝐨𝐤𝐚𝐬𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐤𝐚𝐧𝐠𝐛𝐮𝐠 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐤𝐚𝐧𝐠𝐛𝐮𝐠𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐛𝐚𝐫 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐨𝐤𝐞 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐞𝐰𝐞 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝐧𝐠𝐞𝐧𝐭𝐨𝐝 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝟑 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝟒 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝟓 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝟔 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝟕 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝟖 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝟗 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝟏𝟎 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝟏𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
-╠➤𝐬𝐥𝐞𝐦𝐞𝐤𝟏𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐭𝐫𝐨𝐥𝐢 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐭𝐫𝐨𝐥𝐢𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐭𝐫𝐨𝐥𝐢𝟑 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐣𝐡𝐨𝐧𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐣𝐡𝐨𝐧 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐛𝐮𝐭𝐭𝐨𝐧 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐭𝐫𝐨𝐥 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐤𝐚𝐭𝐚𝐥𝐨𝐠 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐝𝐮𝐜𝐮 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐝𝐚𝐜𝐚 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐝𝐫𝐚𝐤𝐧𝐞𝐬
+╠➤𝐩𝐮𝐧𝐳𝐲𝐬𝐥𝐞𝐛𝐞𝐰 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐬𝐮 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐭𝐨𝐥 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐦𝐞𝐦𝐞𝐤 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐜𝐨𝐧𝐭𝐨𝐥 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐭𝐞𝐱𝐭𝐯 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐠𝐚𝐬 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐣𝐮𝐯𝐢𝐫𝐭𝐞𝐱𝐭 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐣𝐮𝐯𝐢𝐫𝐭𝐞𝐱𝐭𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐣𝐮𝐯𝐢𝐫𝐭𝐞𝐱𝐭𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐣𝐮𝐯𝐢𝐫𝐭𝐞𝐱𝐭𝟑 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐜𝐫𝐚𝐬𝐡 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐜𝐫𝐚𝐬𝐡𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐜𝐫𝐚𝐬𝐡𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐜𝐫𝐚𝐬𝐡𝟑 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐜𝐫𝐚𝐬𝐡𝟒 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐜𝐫𝐚𝐬𝐡𝟓 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐜𝐫𝐚𝐬𝐡𝟔 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐜𝐫𝐚𝐬𝐡𝟕 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐥𝐨𝐤𝐚𝐬 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐥𝐨𝐤𝐚𝐬𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐤𝐚𝐧𝐠𝐛𝐮𝐠 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐤𝐚𝐧𝐠𝐛𝐮𝐠𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐛𝐚𝐫 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐨𝐤𝐞 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐞𝐰𝐞 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝐧𝐠𝐞𝐧𝐭𝐨𝐝 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝟑 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝟒 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝟓 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝟔 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝟕 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝟖 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝟗 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝟏𝟎 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝟏𝟏 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
+╠➤𝐩𝐮𝐧𝐳𝐲𝟏𝟐 [ 𝐣𝐮𝐦𝐥𝐚𝐡 ]
 ╠➤𝐬𝐩𝐚𝐦 [ 𝐑𝐞𝐩𝐥𝐲 𝐏𝐞𝐬𝐚𝐧 ]
-╚════[ ☆slemekbotz⏧☆⏧ ]══════⊱
+╚════[ ☆𝐩𝐮𝐧𝐳𝐲⏧☆⏧ ]══════⊱
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
 
 ╔══════[ 𝐉𝐀𝐃𝐈 𝐁𝐔𝐆 ]══════⊱
@@ -4558,7 +4558,7 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `© Hay Kak ${pushname} �
 ╠➤𝐣𝐚𝐝𝐢𝐛𝐮𝐠𝟑 [ 𝐑𝐞𝐩𝐥𝐲 𝐀𝐮𝐝𝐢𝐨 𝐉𝐚𝐝𝐢 𝐁𝐮𝐠 𝐕𝐧 ]
 ╠➤𝐣𝐚𝐝𝐢𝐛𝐮𝐠𝟒 [ 𝐑𝐞𝐩𝐥𝐲 𝐒𝐭𝐢𝐜𝐤𝐞𝐫 𝐉𝐚𝐝𝐢 𝐁𝐮𝐠 𝐆𝐚𝐦𝐛𝐚𝐫 ]
 ╠➤𝐣𝐚𝐝𝐢𝐛𝐮𝐠𝟓 [ 𝐑𝐞𝐩𝐥𝐲 𝐆𝐚𝐦𝐛𝐚𝐫 𝐉𝐚𝐝𝐢 𝐁𝐮𝐠 𝐎𝐧𝐜𝐞 ] 
-╚════[ ☆slemekbotz⏧☆⏧ ]══════⊱
+╚════[ ☆𝐩𝐮𝐧𝐳𝐲⏧☆⏧ ]══════⊱
 ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
 
 ╔══════[ 𝐁𝐔𝐆 𝐁𝐑𝐎𝐀𝐃𝐂𝐀𝐒𝐓 ]══════⊱
@@ -4566,8 +4566,8 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `© Hay Kak ${pushname} �
 ╠➤𝐛𝐮𝐠𝐛𝐜𝐯𝐢𝐝𝐞𝐨 [ 𝐁𝐮𝐠 𝐕𝐢𝐝𝐞𝐨 𝐁𝐫𝐨𝐚𝐝𝐜𝐚𝐬 ]
 ╠➤𝐛𝐮𝐠𝐛𝐜 𝐚𝐮𝐝𝐢𝐨 [ 𝐁𝐮𝐠 𝐀𝐮𝐝𝐢𝐨 𝐁𝐫𝐨𝐚𝐝𝐜𝐚𝐬𝐭 ]
 ╠➤𝐛𝐮𝐠𝐛𝐜𝐭𝐞𝐱𝐭 [ 𝐁𝐮𝐠 𝐓𝐞𝐱𝐭 𝐁𝐫𝐨𝐚𝐝𝐜𝐚𝐬𝐭 ]
-╚════[ ☆slemekbotz⏧☆⏧ ]══════⊱`,
-contextInfo:{"externalAdReply": {"title": `SC ☆slemekbotz⏧☆⏧`,"body": `Selamat ${salam} kak ${pushname}`,
+╚════[ ☆𝐩𝐮𝐧𝐳𝐲⏧☆⏧ ]══════⊱`,
+contextInfo:{"externalAdReply": {"title": `SC ☆𝐩𝐮𝐧𝐳𝐲⏧☆⏧`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
 sourceUrl: `https://youtube.com/c/HwModsWa857`,
@@ -4599,7 +4599,7 @@ SILAHKAN KETIK MENU UNTUK MENGGUNAKAN BOT LEBIB LANJUT ✌️`,
 "productImageCount": 1,
 "firstImageId": 1,
 "salePriceAmount1000": "10000000",
-"retailerId": `© ☆slemekbotz⏧☆⏧ WE ARE NOT MASTOD`,
+"retailerId": `© ☆punzybotz⏧☆⏧ WE ARE NOT MASTOD`,
 "url": "Wa.me/6285714170944"
 },
 "businessOwnerJid": "6285714170944@s.whatsapp.net",
@@ -4613,7 +4613,7 @@ case 'soundbot': {
 if (isBan) throw sticBanLu(from)
 haikal.sendMessage(m.chat, { image: kalimage, caption: `
 ╔══════[ SOUNDBOT MENU ]══════⊱ 
-╠➤kal
+╠➤punzy
 ╠➤ngakak
 ╠➤ketawa
 ╠➤awkwk
@@ -4621,12 +4621,12 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `
 ╠➤nob
 ╠➤musik
 ╠➤mastah
-╠➤slebew
+╠➤slemek
 ╠➤cantik
 ╠➤kesel
 ╠➤ngeselin
-╚════[ ☆slemekbotz⏧☆⏧ ]══════⊱`,
-contextInfo:{"externalAdReply": {"title": `SC ☆slemekbotz⏧☆⏧`,"body": `Selamat ${salam} kak ${pushname}`,
+╚════[ ☆punzy⏧☆⏧ ]══════⊱`,
+contextInfo:{"externalAdReply": {"title": `SC ☆punzy⏧☆⏧`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
 sourceUrl: `https://youtube.com/c/HwModsWa857`,
@@ -4661,8 +4661,8 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `
 ╠➤heleh
 ╠➤holoh
 ╠➤delttt]
-╚════[ ☆slemekbotz⏧☆⏧ ]══════⊱`,
-contextInfo:{"externalAdReply": {"title": `SC ☆slemekbotz⏧☆⏧`,"body": `Selamat ${salam} kak ${pushname}`,
+╚════[ ☆punzy⏧☆⏧ ]══════⊱`,
+contextInfo:{"externalAdReply": {"title": `SC ☆punzy⏧☆⏧`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
 sourceUrl: `https://youtube.com/c/HwModsWa857`,
@@ -4706,8 +4706,8 @@ nomorhoki
 ╠➤masasubur
 ╠➤zodiak
 ╠➤shio
-╚════[ ☆slemekbotz⏧☆⏧ ]══════⊱`,
-contextInfo:{"externalAdReply": {"title": `SC ☆slemekbotz⏧☆⏧`,"body": `Selamat ${salam} kak ${pushname}`,
+╚════[ ☆punzy⏧☆⏧ ]══════⊱`,
+contextInfo:{"externalAdReply": {"title": `SC ☆punzy⏧☆⏧`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
 sourceUrl: `https://youtube.com/c/HwModsWa857`,
@@ -4725,8 +4725,8 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `
 ╠➤alquran
 ╠➤juzamma
 ╠➤tafsirsurah
-╚════[ ☆slemekbotz⏧☆⏧ ]══════⊱`,
-contextInfo:{"externalAdReply": {"title": `SC ☆slemekbotz⏧☆⏧`,"body": `Selamat ${salam} kak ${pushname}`,
+╚════[ ☆punzy⏧☆⏧ ]══════⊱`,
+contextInfo:{"externalAdReply": {"title": `SC ☆punzy⏧☆⏧`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
 sourceUrl: `https://youtube.com/c/HwModsWa857`,
@@ -4755,8 +4755,8 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `
 ╠➤antara-news
 ╠➤cnn-news
 ╠➤fajar-news
-╚════[ ☆slemekbotz⏧☆⏧ ]══════⊱ `,
-contextInfo:{"externalAdReply": {"title": `SC ☆slemekbotz⏧☆⏧`,"body": `Selamat ${salam} kak ${pushname}`,
+╚════[ ☆punzy⏧☆⏧ ]══════⊱ `,
+contextInfo:{"externalAdReply": {"title": `SC ☆punzy⏧☆⏧`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
 sourceUrl: `https://youtube.com/c/HwModsWa857`,
@@ -4793,8 +4793,8 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `
 ╠➤getpic
 ╠➤penjara
 ╠➤intro
-╚════[ ☆slemekbotz⏧☆⏧ ]══════⊱`,
-contextInfo:{"externalAdReply": {"title": `SC ☆slemekbotz⏧☆⏧`,"body": `Selamat ${salam} kak ${pushname}`,
+╚════[ ☆punzy⏧☆⏧ ]══════⊱`,
+contextInfo:{"externalAdReply": {"title": `SC ☆punzy⏧☆⏧`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
 sourceUrl: `https://youtube.com/c/HwModsWa857`,
@@ -4819,8 +4819,8 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `
 ╠➤robot
 ╠➤slow
 ╠➤tupai
-╚════[ ☆slemekbotz⏧☆⏧ ]══════⊱`,
-contextInfo:{"externalAdReply": {"title": `SC ☆slemekbotz⏧☆⏧`,"body": `Selamat ${salam} kak ${pushname}`,
+╚════[ ☆punzy⏧☆⏧ ]══════⊱`,
+contextInfo:{"externalAdReply": {"title": `SC ☆punzy⏧☆⏧`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
 sourceUrl: `https://youtube.com/c/HwModsWa857`,
@@ -4835,7 +4835,7 @@ if (isBan) throw sticBanLu(from)
 haikal.sendMessage(m.chat, { image: kalimage, caption: `
  *[ 🌷 ] Asupan Mata* 
 bokep`,
-contextInfo:{"externalAdReply": {"title": `SC ☆slemekbotz⏧☆⏧`,"body": `Selamat ${salam} kak ${pushname}`,
+contextInfo:{"externalAdReply": {"title": `SC ☆punzy⏧☆⏧`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
 sourceUrl: `https://youtube.com/c/HwModsWa857`,
@@ -4855,8 +4855,8 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `
 ╠➤wikimedia [query]
 ╠➤ringtone [query]
 ╠➤searchgroups [query]
-╚════[ ☆slemekbotz⏧☆⏧ ]══════⊱`,
-contextInfo:{"externalAdReply": {"title": `SC ☆slemekbotz⏧☆⏧`,"body": `Selamat ${salam} kak ${pushname}`,
+╚════[ ☆punzy⏧☆⏧ ]══════⊱`,
+contextInfo:{"externalAdReply": {"title": `SC ☆punzy⏧☆⏧`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
 sourceUrl: `https://youtube.com/c/HwModsWa857`,
@@ -4888,8 +4888,8 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `
 ╠➤styletext
 ╠➤smeme
 ╠➤ss [url]
-╚════[ ☆slemekbotz⏧☆⏧ ]══════⊱`,
-contextInfo:{"externalAdReply": {"title": `SC ☆slemekbotz⏧☆⏧`,"body": `Selamat ${salam} kak ${pushname}`,
+╚════[ ☆punzy⏧☆⏧ ]══════⊱`,
+contextInfo:{"externalAdReply": {"title": `SC ☆punzy⏧☆⏧`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
 sourceUrl: `https://youtube.com/c/HwModsWa857`,
@@ -4908,7 +4908,7 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `
 ╠➤delcmd
 ╠➤lockcmd
 ╚════[ ☆slemekbotz⏧☆⏧ ]══════⊱`,
-contextInfo:{"externalAdReply": {"title": `SC ☆slemekbotz⏧☆⏧`,"body": `Selamat ${salam} kak ${pushname}`,
+contextInfo:{"externalAdReply": {"title": `SC ☆punzy⏧☆⏧`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
 sourceUrl: `https://youtube.com/c/HwModsWa857`,
@@ -4924,7 +4924,7 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `
 *[ 🌷 ] Download Menu* 
 pinterestdl [url]
 mediafire [url]`,
-contextInfo:{"externalAdReply": {"title": `SC ☆slemekbotz⏧☆⏧`,"body": `Selamat ${salam} kak ${pushname}`,
+contextInfo:{"externalAdReply": {"title": `SC ☆punzy⏧☆⏧`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
 sourceUrl: `https://youtube.com/c/HwModsWa857`,
@@ -4958,8 +4958,8 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `
 ╠➤listgc
 ╠➤listonline
 ╠➤speedtest
-╚════[ ☆slemekbotz⏧☆⏧ ]══════⊱`,
-contextInfo:{"externalAdReply": {"title": `SC ☆slemekbotz⏧☆⏧`,"body": `Selamat ${salam} kak ${pushname}`,
+╚════[ ☆punzy⏧☆⏧ ]══════⊱`,
+contextInfo:{"externalAdReply": {"title": `SC ☆punzy⏧☆⏧`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
 sourceUrl: `https://youtube.com/c/HwModsWa857`,
@@ -4996,8 +4996,8 @@ haikal.sendMessage(m.chat, { image: kalimage, caption: `
 ╠➤darkjoke
 ╠➤meme
 ╠➤meme2
-╚════[ ☆slemekbotz⏧☆⏧ ]══════⊱`,
-contextInfo:{"externalAdReply": {"title": `SC ☆slemekbotz⏧☆⏧`,"body": `Selamat ${salam} kak ${pushname}`,
+╚════[ ☆punzy⏧☆⏧ ]══════⊱`,
+contextInfo:{"externalAdReply": {"title": `SC ☆punzy⏧☆⏧`,"body": `Selamat ${salam} kak ${pushname}`,
 previewType: "PHOTO",
 showAdAttribution: true,
 sourceUrl: `https://youtube.com/c/HwModsWa857`,
